@@ -46,3 +46,12 @@ https://www.linkedin.com/in/mohammad-firdaus-sulaiman/
 
 🛑 Disclaimer
 These scripts are intended for educational and demonstration purposes only. Please test thoroughly in a non-production environment before deploying.
+
+## 📚 Documentation
+
+- [Initial Setup Guide](./docs/setup.md)
+- [Reset Password Script](./docs/usage-reset-bulk-passwords.md)
+- [Device Cleanup Script](./docs/usage-cleanup-old-devices.md)
+- [Defender Check Script](./docs/usage-defender-check.md)
+- [Autopilot Validator Script](./docs/usage-autopilot-validator.md)
+- [Common Errors & Fixes](./docs/common-errors.md)
