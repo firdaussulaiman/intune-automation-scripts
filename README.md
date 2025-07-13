@@ -37,3 +37,13 @@ These scripts are designed to improve efficiency, enforce security compliance, a
 1. Clone or download this repository:
    ```bash
    git clone https://github.com/firdaussulaiman/intune-automation-scripts.git
+📸 Screenshots / Output Examples
+
+
+🙋‍♂️ Author
+Firdaus Sulaiman
+Cloud & Endpoint Automation Enthusiast | PowerShell + Intune + Graph API
+🔗 LinkedIn
+
+🛑 Disclaimer
+These scripts are intended for educational and demonstration purposes only. Please test thoroughly in a non-production environment before deploying.
