@@ -1,5 +1,4 @@
-# intune-automation-scripts
-cloud-device-management-automation
+
 # Intune Automation Scripts
 
 A collection of PowerShell scripts and Microsoft Graph API automation tools used for managing cloud-based endpoints with Microsoft Intune and Azure Active Directory.
@@ -43,7 +42,7 @@ These scripts are designed to improve efficiency, enforce security compliance, a
 🙋‍♂️ Author
 Firdaus Sulaiman
 Cloud & Endpoint Automation Enthusiast | PowerShell + Intune + Graph API
-🔗 LinkedIn
+https://www.linkedin.com/in/mohammad-firdaus-sulaiman/
 
 🛑 Disclaimer
 These scripts are intended for educational and demonstration purposes only. Please test thoroughly in a non-production environment before deploying.
