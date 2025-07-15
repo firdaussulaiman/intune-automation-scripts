@@ -1,0 +1,9 @@
+Install-Module -Name Microsoft.Graph.Intune
+Connect-MgGraph -Scopes "DeviceManagementManagedDevices.Read.All"
+
+$devices = Get-MgDeviceManagementManagedDevice -All | Where-Object {
+    $_.OperatingSystem -eq "Windows" -and $_.OsVersion -like "10.0.22*"
+}
+
+$devices | Select-Object deviceName, userPrincipalName, complianceState, lastSyncDateTime |
+Export-Csv -Path "Windows11Compliance.csv" -NoTypeInformation
