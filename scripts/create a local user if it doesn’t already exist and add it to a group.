@@ -1,0 +1,10 @@
+$Username = "localuser"
+$Password = ConvertTo-SecureString "P@ssw0rd123" -AsPlainText -Force
+
+if (-not (Get-LocalUser -Name $Username -ErrorAction SilentlyContinue)) {
+    New-LocalUser -Name $Username -Password $Password -FullName "Local Support User"
+    Add-LocalGroupMember -Group "Administrators" -Member $Username
+    Write-Output "$Username created and added to Administrators."
+} else {
+    Write-Output "$Username already exists."
+}
